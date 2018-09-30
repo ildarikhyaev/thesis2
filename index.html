@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Дипломный проект</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<main>
+		<div class="main-container">
+		<header class="central-container">
+			<nav id="header-container">
+				<ul>
+					<li class="header-list"><a href="#services-title">Услуги</a></li>	
+					<li class="header-list"><a href="#services-title2">Портфолио</a></li>	
+					<li class="header-list"><a href="#banner">Стоимость</a></li>	
+				</ul>
+				<button id="mobile-header-menu"></button>
+				<div id="mobile-menu">
+					<div class="mobile-links"><a href="#">Услуги</a></div>
+					<div class="mobile-links"><a href="#">Портфолио</a></div>
+					<div class="mobile-links"><a href="#">Стоимость</a></div>
+				</div>
+				<address id="header-phone">
+					+7 (996) 731-28-08
+					<button class="header_button" data-toggle="modal" data-target=".bd-example-modal-lg">Заказать звонок</button>
+					<button class="mobile-header_button"  data-toggle="modal" data-target=".bd-example-modal-lg"></button>
+				</address>
+				<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						 <div class="modal-content">
+						 	<form class="feedback-container" method="post">
+								<div class="form-group">
+								   	<label for="name">Ваше имя:</label>
+								   	<input type="text" name="name" class="form-control" id="name" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<label for="phone">Номер телефона:</label>
+									<input type="number" name="phone" class="form-control" id="phone" placeholder="Phone">
+								</div>
+								<div class="form-group">
+									<label for="email1">E-mail:</label>
+									<input type="email" name="email" class="form-control" id="email1" placeholder="Email">
+								</div>
+								<button type="submit" class="btn btn-danger">Заказать обратный звонок</button>
+							</form>
+						</div>
+					</div>
+				</div>	
+			</nav>
+		</header>
+		<div id="topside-bg">
+			<div class="items-container">
+				<img src="img/skobki.png" id="p1" alt="элемент фона">
+				<img src="img/___copy.png" id="p2" alt="элемент фона">
+				<img src="img/_div_copy.png" id="p3" alt="элемент фона">
+				<img src="img/_div_.png" id="p4" alt="элемент фона">
+				<img src="img/reshetka.png" id="p5" alt="элемент фона">
+			</div>	
+		<div class="central-container">
+			<div id="card1">
+				<p class="card-text1">Ильдар Ихъяев</p>
+				<p class="card-text2">Frontend-разработчик и веб-верстальщик</p>
+				<button class="main-button" data-toggle="modal" data-target=".bd-example-modal-lg">Узнать больше</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="card2" >
+			<p class="card-text1">Ильдар Ихъяев</p>
+			<p class="card-text2">Frontend-разработчик и веб-верстальщик</p>
+			<button class="main-button" data-toggle="modal" data-target=".bd-example-modal-lg">Узнать больше</button>
+		</div>
+		<div class="services-title" id="services-title">Что я делаю</div>
+			<div class="central-container">
+				<div class="services-container">
+					<div class="services-items">
+						<img src="img/tools.png" class="services-img" alt="вёрстка сайтов любой сложности">
+						<div class="services-text">Вёрстка лендинг-страниц и сайтов любой сложности</div>
+					</div>
+					<div class="services-items">
+						<img src="img/responsive.png" class="services-img" alt="адаптивная вёрстка">
+						<div class="services-text">Адаптивная вёрстка под все браузеры и устройства</div>
+					</div>
+					<div class="services-items">
+						<img src="img/programming.png" class="services-img" alt="программирование">
+						<div class="services-text">Frontend-разработка и программирование</div>
+					</div>
+					<div class="services-items">
+						<img src="img/coding.png" class="services-img" alt="Исправление существующей вёрстки">
+						<div class="services-text">Исправление и доработка существующей вёрстки</div>
+					</div>
+					<div class="main-button-container">
+						<button class="main-button" data-toggle="modal" data-target=".bd-example-modal-lg">Узнать стоимость</button>
+					</div> 
+				</div>
+			</div>
+			<div class="examples-container">
+				<div class="central-container">
+					<div class="services-title" id="services-title2">Примеры моих работ</div>
+						<div class="owl-carousel">
+						  	<div class="owl-carousel-items">
+								<img src="img/Layer2.png" alt="Сайт психолога">
+								<div class="example-text">Сайт психолога Веры Антоновой</div>
+						  	</div>
+						  	<div class="owl-carousel-items">
+							  	<img src="img/Layer1.png" alt="Сайт магазина детской одежды">
+								<div class="example-text">Сайт магазина детской одежды</div>
+						 	</div>
+							<div class="owl-carousel-items">
+							  	<img src="img/Layer3.png" alt="Сайт магазина Рыболов">
+								<div class="example-text">Сайт магазина "Рыболов"</div>
+						  	</div>
+						 	<div class="owl-carousel-items">
+							  	<img src="img/Layer3.png" alt="Сайт магазина Рыболов">
+								<div class="example-text">Сайт магазина "Рыболов"</div>
+						  	</div>
+						    <div class="owl-carousel-items">
+							  	<img src="img/Layer3.png" alt="Сайт магазина Рыболов">
+								<div class="example-text">Сайт магазина "Рыболов"</div>
+						 	</div>
+						</div>
+						<div class="main-button-container">
+							<button class="main-button" id="examples-button" data-toggle="modal" data-target=".bd-example-modal-lg">Заказать проект</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="banner">
+				<div class="items-container2">
+					<div class="central-container">
+						<div id="banner-text1">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за 4 часа.*</div>
+						<div id="banner-text2">*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач.</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="central-container">
+					<nav id="footer-container">
+						<ul id="footer-list">
+							<li class="footer-list-items"><a href="#services-title" >Услуги</a></li>	
+							<li class="footer-list-items"><a href="#services-title2">Портфолио</a></li>	
+							<li class="footer-list-items"><a href="#banner">Стоимость</a></li>	
+						</ul>
+						<div id="footer-contacts">
+							<div id="footer-phone"><i class="fas fa-phone"></i>  +7 (996) 731-28-08</div>
+							<div id="footer-email"><i class="fas fa-envelope"></i>  ikhyaev@yandex.ru</div>
+						</div>	
+						<div class="footer-right-container">		
+							<button id="footer-button" data-toggle="modal" data-target=".bd-example-modal-lg">Заказать звонок</button>
+							<div id="icons-container">
+								<div class="icon-facebook"><a href="http://facebook.com" target="_blank"></a></div>
+								<div class="icon-instagram"><a href="http://instagram.com" target="_blank"></a></div>
+								<div class="icon-twitter"><a href="http://twitter.com" target="_blank"></a></div>
+								<div class="icon-vk"><a href="http://vk.com" target="_blank"></a></div>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<address id="footer-name">
+					<div id="footer-name-text">&copy; Ильдар Ихъяев, 2018</div>
+		    	</address>
+			</footer>
+	</main>
+</body>
+</html>
